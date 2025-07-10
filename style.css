@@ -172,3 +172,74 @@ main{
     font-size: 16px;
     color: #757575;
 }
+
+/* Resume Sectio */
+
+.resume-section{
+    margin: 130px 0px;
+}
+.resume{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin-top: 130px;
+}
+.education{}
+.edu-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.edu-description{
+    margin: 60px 0px;
+}
+.edu-description h4{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.edu-description h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.edu-description p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+}
+
+.experience{}
+.exp-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.exp-description{
+    margin: 60px 0px;
+}
+.exp-description h4{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.exp-description h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.exp-description p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-section .btn{
+    text-align: center;
+    margin-top: 50px;
+}
