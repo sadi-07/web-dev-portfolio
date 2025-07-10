@@ -6,8 +6,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings:"wdth" 100;
 }
 
 /* shared items  */
@@ -16,19 +15,33 @@
     color: #fff;
     background-color: #FD6E0A;
     cursor: pointer;
-    padding: 15px 20px;
+    padding: 19px 30px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 5%;
     border: none;
 }
+.section-title{
+    font-weight: 800;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
 
+/* Header */
 
 header{
     background-image: url(./media/developer.png), url(./media/header_bg.png) ;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    margin-left: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #FFF8F3;
 }
 
 .nav-items{
@@ -88,4 +101,74 @@ header{
 }
 .banner img{
     width: 584px;
+}
+
+/* Main */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* About Section */
+
+.about-section{
+    border-radius: 3%;
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 130px 150px;
+    margin: 130px 0px;
+}
+.about-section p{
+    margin: 30px 0px;
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-item{}
+.about-item h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.about-item h3{
+    font-weight: 700;
+    font-size: 22px;
+    color: #474747;
+}
+
+/* Skills */
+
+.skills{}
+.skills h3{}
+.skills p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.skill-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 24px;
+}
+.skill-item{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-item img{}
+.skill-item h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+.skill-item p{
+    margin: 0px 0px 30px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
 }
